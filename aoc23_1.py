@@ -18,15 +18,15 @@ def checkCalibration(string):
     return calibrationOne + calibrationTwo
 
 def replaceStringNumber(string):
-    string = string.replace('one','1')
-    string = string.replace('two','2')
-    string = string.replace('three','3')
-    string = string.replace('four','4')
-    string = string.replace('five','5')
-    string = string.replace('six','6')
-    string = string.replace('seven','7')
-    string = string.replace('eight','8')
-    string = string.replace('nine','9')
+    string = string.replace('one','o1e')
+    string = string.replace('two','t2o')
+    string = string.replace('three','t3e')
+    string = string.replace('four','f4r')
+    string = string.replace('five','f5e')
+    string = string.replace('six','s6x')
+    string = string.replace('seven','s7n')
+    string = string.replace('eight','e8t')
+    string = string.replace('nine','n9e')
     return string
 
 file1 = open('C:\\Users\\poresky\\Downloads\\input_aoc_1_23.txt','r')
